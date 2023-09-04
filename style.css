@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-html{
+html{ 
     scroll-behavior: smooth;
 }
 
@@ -89,7 +89,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("media/hero.jpg");
+    ,url("template/img/chica-vista-frontal-tableta-auriculares.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -106,6 +106,7 @@ header a:hover{
 #somos-proya .container{
     text-align: center;
     padding: 200px 12px;
+    
 }
 
 #nuestros-programas{
@@ -141,7 +142,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("media/front-end.jpg");
+    ,url("template/img/aula-virtual-espacio-estudio.jpg");
 
 }
 
@@ -151,7 +152,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("media/full-stack.jpg");
+    ,url("template/img/chica-vista-frontal-tableta-auriculares.jpg");
 }
 
 .carta:nth-child(3){
@@ -160,18 +161,19 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("media/python.jpg");
+    ,url("template/img/nuevo-chica-estudiando.jpg");
 
 }
 
 #caracteristicas .container{
     text-align: center;
-    padding: 250px 12px;
+    padding: 200px 12px;
 }
 
 #caracteristicas li{
     margin: 16px 0px;
     font-weight: bold;
+
 }
 
 #final{
@@ -251,7 +253,7 @@ footer .container{
     }
 
     #somos-proya .img-container{
-        background-image: url("media/somos-proya.jpg");
+        background-image: url("template/img/retrato-nina-prestando-atencion-clase-linea.jpg");
         background-size: cover;
         background-position: center center;
         height: 500px;
@@ -278,7 +280,7 @@ footer .container{
 
     #nuestros-programas .carta{
         padding: 50px;
-        background-size: 100% 150px;
+        background-size: cover;
         background-repeat: no-repeat;
         background-position-y: 0;
         background-color: rgba(50, 50, 50, 1);
@@ -291,7 +293,7 @@ footer .container{
             rgba(0,0,0,0.5),
             rgba(0,0,0,0.5)
         )
-        ,url("media/front-end-cropped.jpg");
+        ,url("template/img/aula-virtual-espacio-estudio.jpg");
 
     }
 
@@ -301,7 +303,7 @@ footer .container{
             rgba(0,0,0,0.5),
             rgba(0,0,0,0.5)
         )
-        ,url("media/full-stack-cropped.jpg");
+        ,url("template/img/chica-vista-frontal-tableta-auriculares.jpg");
     }
 
     .carta:nth-child(3){
@@ -310,15 +312,17 @@ footer .container{
             rgba(0,0,0,0.5),
             rgba(0,0,0,0.5)
         )
-        ,url("media/python-cropped.jpg");
+        ,url("template/img/nuevo-chica-estudiando.jpg");
 
     }
 
     #caracteristicas{
-        background-image: url("media/background-2.jpeg");
+        background-image: url("template/img/retrato-nina-prestando-atencion-clase-linea.jpg");
         background-repeat: no-repeat;
-        background-size: 500px 400px;
-        background-position: calc(100vw - 500px) 120px;
+        background-size: 500px 500px;
+        background-position: calc(100vw - 600px) 120px;
+        
+
     }
 
     #caracteristicas .container{
@@ -327,6 +331,9 @@ footer .container{
 
     #caracteristicas ul{
         margin-left: 100px;
+        font-weight: bold;
+        padding:  50px;
+        
     }
 
     #final h2{
@@ -344,6 +351,6 @@ footer .container{
 
 @media (min-width: 1200px) {
     #caracteristicas{
-        background-position-x: calc(100vw - 800px);
+        background-position: 700px 120px;
     }
 }
