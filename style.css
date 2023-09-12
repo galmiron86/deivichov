@@ -167,6 +167,36 @@ header a:hover{
 
 }
 
+.carta:nth-child(4){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("template/img/chica-vista-frontal-tableta-auriculares.jpg");
+
+}
+
+.carta:nth-child(5){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("template/img/chica-vista-frontal-tableta-auriculares.jpg");
+
+}
+
+.carta:nth-child(6){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("template/img/chica-vista-frontal-tableta-auriculares.jpg");
+
+}
+
 #caracteristicas .container{
     text-align: center;
     padding: 200px 12px;
@@ -266,8 +296,10 @@ footer .container{
 
     
     #nuestros-programas .programas{
-        display: flex;
-        justify-content: center;
+        display: grid;
+        flex-wrap: wrap;
+        grid-template-columns: auto auto auto;
+        
     }
 
     #nuestros-programas p{
@@ -322,7 +354,7 @@ footer .container{
     }
 
     #caracteristicas{
-        background-image: url("template/img/retrato-nina-prestando-atencion-clase-linea.jpg");
+        background-image: url("template/img/nina-portatil-mesa.jpg");
         background-repeat: no-repeat;
         background-size: 500px 500px;
         background-position: calc(100vw - 600px) 120px;
