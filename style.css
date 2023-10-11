@@ -10,7 +10,15 @@ html{
 
 body{
     font-family: 'Roboto', sans-serif;
+<<<<<<< HEAD
+    margin: 0;
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}
+=======
 } 
+>>>>>>> bec8148cb93d15bed4dbfa4051a1bd597c37425a
 
 h1{ font-size: 3.5em;}
 h2{ font-size: 2.7em;}
@@ -262,11 +270,14 @@ footer .container{
 .formulario{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    margin: 1vh 12vw ;
+    gap: 10px;
+    margin: 10px 120px;
     /* border: #706c6c solid; */
     /* border-radius: 2rem; */
-    
+    border: 1px solid;
+    border-radius: 10px;
 }
 
 .formulario ::placeholder{
@@ -315,12 +326,35 @@ footer .container{
 
 @media (min-width: 720px){
 
+<<<<<<< HEAD
+    body{
+        display: grid;
+        min-height: 100vh;
+        grid-template-rows: auto 1fr auto;
+
+    }
+
+    .formulario{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 17px;
+        margin: 10px 450px;
+        /* border: #706c6c solid; */
+        /* border-radius: 2rem; */
+        border: 1px solid;
+        border-radius: 10px;
+    }
+
+=======
     body{
         display: grid;
         min-height: 100vh;
         grid-template-rows: auto 1fr auto;
     }
 
+>>>>>>> bec8148cb93d15bed4dbfa4051a1bd597c37425a
     .ingreso{
         display: flex;
         flex-direction: row;
